@@ -1,0 +1,1399 @@
+  [{
+        "name": "Andorra",
+        "countrycode": "376",
+        "isocode": "AD",
+        "mask": null
+    },
+    {
+        "name": "United Arab Emirates",
+        "countrycode": "971",
+        "isocode": "AE",
+        "mask": null
+    },
+    {
+        "name": "Afghanistan",
+        "countrycode": "93",
+        "isocode": "AF",
+        "mask": null
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "countrycode": "1",
+        "isocode": "AG",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Anguilla",
+        "countrycode": "1",
+        "isocode": "AI",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Albania",
+        "countrycode": "355",
+        "isocode": "AL",
+        "mask": null
+    },
+    {
+        "name": "Armenia",
+        "countrycode": "374",
+        "isocode": "AM",
+        "mask": null
+    },
+    {
+        "name": "Netherlands Antilles",
+        "countrycode": "599",
+        "isocode": "AN",
+        "mask": null
+    },
+    {
+        "name": "Angola",
+        "countrycode": "244",
+        "isocode": "AO",
+        "mask": null
+    },
+    {
+        "name": "Antarctica",
+        "countrycode": "672",
+        "isocode": "AQ",
+        "mask": null
+    },
+    {
+        "name": "Argentina",
+        "countrycode": "54",
+        "isocode": "AR",
+        "mask": null
+    },
+    {
+        "name": "American Samoa",
+        "countrycode": "1",
+        "isocode": "AS",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Austria",
+        "countrycode": "43",
+        "isocode": "AT",
+        "mask": null
+    },
+    {
+        "name": "Australia",
+        "countrycode": "61",
+        "isocode": "AU",
+        "mask": null
+    },
+    {
+        "name": "Aruba",
+        "countrycode": "297",
+        "isocode": "AW",
+        "mask": null
+    },
+    {
+        "name": "Azerbaijan",
+        "countrycode": "994",
+        "isocode": "AZ",
+        "mask": null
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "countrycode": "387",
+        "isocode": "BA",
+        "mask": null
+    },
+    {
+        "name": "Barbados",
+        "countrycode": "1",
+        "isocode": "BB",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Bangladesh",
+        "countrycode": "880",
+        "isocode": "BD",
+        "mask": null
+    },
+    {
+        "name": "Belgium",
+        "countrycode": "32",
+        "isocode": "BE",
+        "mask": null
+    },
+    {
+        "name": "Burkina Faso",
+        "countrycode": "226",
+        "isocode": "BF",
+        "mask": null
+    },
+    {
+        "name": "Bulgaria",
+        "countrycode": "359",
+        "isocode": "BG",
+        "mask": null
+    },
+    {
+        "name": "Bahrain",
+        "countrycode": "973",
+        "isocode": "BH",
+        "mask": null
+    },
+    {
+        "name": "Burundi",
+        "countrycode": "257",
+        "isocode": "BI",
+        "mask": null
+    },
+    {
+        "name": "Benin",
+        "countrycode": "229",
+        "isocode": "BJ",
+        "mask": null
+    },
+    {
+        "name": "Saint Barthelemy",
+        "countrycode": "590",
+        "isocode": "BL",
+        "mask": null
+    },
+    {
+        "name": "Bermuda",
+        "countrycode": "1",
+        "isocode": "BM",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Brunei",
+        "countrycode": "673",
+        "isocode": "BN",
+        "mask": null
+    },
+    {
+        "name": "Bolivia",
+        "countrycode": "591",
+        "isocode": "BO",
+        "mask": null
+    },
+    {
+        "name": "Brazil",
+        "countrycode": "55",
+        "isocode": "BR",
+        "mask": null
+    },
+    {
+        "name": "Bahamas",
+        "countrycode": "1",
+        "isocode": "BS",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Bhutan",
+        "countrycode": "975",
+        "isocode": "BT",
+        "mask": null
+    },
+    {
+        "name": "Botswana",
+        "countrycode": "267",
+        "isocode": "BW",
+        "mask": null
+    },
+    {
+        "name": "Belarus",
+        "countrycode": "375",
+        "isocode": "BY",
+        "mask": null
+    },
+    {
+        "name": "Belize",
+        "countrycode": "501",
+        "isocode": "BZ",
+        "mask": null
+    },
+    {
+        "name": "Canada",
+        "countrycode": "1",
+        "isocode": "CA",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Cocos Islands",
+        "countrycode": "61",
+        "isocode": "CC",
+        "mask": null
+    },
+    {
+        "name": "Democratic Republic of the Congo",
+        "countrycode": "243",
+        "isocode": "CD",
+        "mask": null
+    },
+    {
+        "name": "Central African Republic",
+        "countrycode": "236",
+        "isocode": "CF",
+        "mask": null
+    },
+    {
+        "name": "Republic of the Congo",
+        "countrycode": "242",
+        "isocode": "CG",
+        "mask": null
+    },
+    {
+        "name": "Switzerland",
+        "countrycode": "41",
+        "isocode": "CH",
+        "mask": null
+    },
+    {
+        "name": "Ivory Coast",
+        "countrycode": "225",
+        "isocode": "CI",
+        "mask": null
+    },
+    {
+        "name": "Cook Islands",
+        "countrycode": "682",
+        "isocode": "CK",
+        "mask": null
+    },
+    {
+        "name": "Chile",
+        "countrycode": "56",
+        "isocode": "CL",
+        "mask": null
+    },
+    {
+        "name": "Cameroon",
+        "countrycode": "237",
+        "isocode": "CM",
+        "mask": null
+    },
+    {
+        "name": "China",
+        "countrycode": "86",
+        "isocode": "CN",
+        "mask": null
+    },
+    {
+        "name": "Colombia",
+        "countrycode": "57",
+        "isocode": "CO",
+        "mask": null
+    },
+    {
+        "name": "Costa Rica",
+        "countrycode": "506",
+        "isocode": "CR",
+        "mask": null
+    },
+    {
+        "name": "Cape Verde",
+        "countrycode": "238",
+        "isocode": "CV",
+        "mask": null
+    },
+    {
+        "name": "Curacao",
+        "countrycode": "599",
+        "isocode": "CW",
+        "mask": null
+    },
+    {
+        "name": "Christmas Island",
+        "countrycode": "61",
+        "isocode": "CX",
+        "mask": null
+    },
+    {
+        "name": "Cyprus",
+        "countrycode": "357",
+        "isocode": "CY",
+        "mask": null
+    },
+    {
+        "name": "Czech Republic",
+        "countrycode": "420",
+        "isocode": "CZ",
+        "mask": null
+    },
+    {
+        "name": "Germany",
+        "countrycode": "49",
+        "isocode": "DE",
+        "mask": null
+    },
+    {
+        "name": "Djibouti",
+        "countrycode": "253",
+        "isocode": "DJ",
+        "mask": null
+    },
+    {
+        "name": "Denmark",
+        "countrycode": "45",
+        "isocode": "DK",
+        "mask": null
+    },
+    {
+        "name": "Dominica",
+        "countrycode": "1",
+        "isocode": "DM",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Dominican Republic",
+        "countrycode": "1",
+        "isocode": "DO",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Algeria",
+        "countrycode": "213",
+        "isocode": "DZ",
+        "mask": null
+    },
+    {
+        "name": "Ecuador",
+        "countrycode": "593",
+        "isocode": "EC",
+        "mask": null
+    },
+    {
+        "name": "Estonia",
+        "countrycode": "372",
+        "isocode": "EE",
+        "mask": null
+    },
+    {
+        "name": "Egypt",
+        "countrycode": "20",
+        "isocode": "EG",
+        "mask": null
+    },
+    {
+        "name": "Western Sahara",
+        "countrycode": "212",
+        "isocode": "EH",
+        "mask": null
+    },
+    {
+        "name": "Eritrea",
+        "countrycode": "291",
+        "isocode": "ER",
+        "mask": null
+    },
+    {
+        "name": "Spain",
+        "countrycode": "34",
+        "isocode": "ES",
+        "mask": null
+    },
+    {
+        "name": "Ethiopia",
+        "countrycode": "251",
+        "isocode": "ET",
+        "mask": null
+    },
+    {
+        "name": "Finland",
+        "countrycode": "358",
+        "isocode": "FI",
+        "mask": null
+    },
+    {
+        "name": "Fiji",
+        "countrycode": "679",
+        "isocode": "FJ",
+        "mask": null
+    },
+    {
+        "name": "Falkland Islands",
+        "countrycode": "500",
+        "isocode": "FK",
+        "mask": null
+    },
+    {
+        "name": "Micronesia",
+        "countrycode": "691",
+        "isocode": "FM",
+        "mask": null
+    },
+    {
+        "name": "Faroe Islands",
+        "countrycode": "298",
+        "isocode": "FO",
+        "mask": null
+    },
+    {
+        "name": "France",
+        "countrycode": "33",
+        "isocode": "FR",
+        "mask": null
+    },
+    {
+        "name": "Gabon",
+        "countrycode": "241",
+        "isocode": "GA",
+        "mask": null
+    },
+    {
+        "name": "United Kingdom",
+        "countrycode": "44",
+        "isocode": "GB",
+        "mask": null
+    },
+    {
+        "name": "Grenada",
+        "countrycode": "1",
+        "isocode": "GD",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Georgia",
+        "countrycode": "995",
+        "isocode": "GE",
+        "mask": null
+    },
+    {
+        "name": "Guernsey",
+        "countrycode": "44",
+        "isocode": "GG",
+        "mask": null
+    },
+    {
+        "name": "Ghana",
+        "countrycode": "233",
+        "isocode": "GH",
+        "mask": null
+    },
+    {
+        "name": "Gibraltar",
+        "countrycode": "350",
+        "isocode": "GI",
+        "mask": null
+    },
+    {
+        "name": "Greenland",
+        "countrycode": "299",
+        "isocode": "GL",
+        "mask": null
+    },
+    {
+        "name": "Gambia",
+        "countrycode": "220",
+        "isocode": "GM",
+        "mask": null
+    },
+    {
+        "name": "Guinea",
+        "countrycode": "224",
+        "isocode": "GN",
+        "mask": null
+    },
+    {
+        "name": "Equatorial Guinea",
+        "countrycode": "240",
+        "isocode": "GQ",
+        "mask": null
+    },
+    {
+        "name": "Greece",
+        "countrycode": "30",
+        "isocode": "GR",
+        "mask": null
+    },
+    {
+        "name": "Guatemala",
+        "countrycode": "502",
+        "isocode": "GT",
+        "mask": null
+    },
+    {
+        "name": "Guam",
+        "countrycode": "1",
+        "isocode": "GU",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "countrycode": "245",
+        "isocode": "GW",
+        "mask": null
+    },
+    {
+        "name": "Guyana",
+        "countrycode": "592",
+        "isocode": "GY",
+        "mask": null
+    },
+    {
+        "name": "Hong Kong",
+        "countrycode": "852",
+        "isocode": "HK",
+        "mask": null
+    },
+    {
+        "name": "Honduras",
+        "countrycode": "504",
+        "isocode": "HN",
+        "mask": null
+    },
+    {
+        "name": "Croatia",
+        "countrycode": "385",
+        "isocode": "HR",
+        "mask": null
+    },
+    {
+        "name": "Haiti",
+        "countrycode": "509",
+        "isocode": "HT",
+        "mask": null
+    },
+    {
+        "name": "Hungary",
+        "countrycode": "36",
+        "isocode": "HU",
+        "mask": null
+    },
+    {
+        "name": "Indonesia",
+        "countrycode": "62",
+        "isocode": "ID",
+        "mask": null
+    },
+    {
+        "name": "Ireland",
+        "countrycode": "353",
+        "isocode": "IE",
+        "mask": null
+    },
+    {
+        "name": "Israel",
+        "countrycode": "972",
+        "isocode": "IL",
+        "mask": null
+    },
+    {
+        "name": "Isle of Man",
+        "countrycode": "44",
+        "isocode": "IM",
+        "mask": null
+    },
+    {
+        "name": "India",
+        "countrycode": "91",
+        "isocode": "IN",
+        "mask": null
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "countrycode": "246",
+        "isocode": "IO",
+        "mask": null
+    },
+    {
+        "name": "Iraq",
+        "countrycode": "964",
+        "isocode": "IQ",
+        "mask": null
+    },
+    {
+        "name": "Iceland",
+        "countrycode": "354",
+        "isocode": "IS",
+        "mask": null
+    },
+    {
+        "name": "Italy",
+        "countrycode": "39",
+        "isocode": "IT",
+        "mask": null
+    },
+    {
+        "name": "Jersey",
+        "countrycode": "44",
+        "isocode": "JE",
+        "mask": null
+    },
+    {
+        "name": "Jamaica",
+        "countrycode": "1",
+        "isocode": "JM",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Jordan",
+        "countrycode": "962",
+        "isocode": "JO",
+        "mask": null
+    },
+    {
+        "name": "Japan",
+        "countrycode": "81",
+        "isocode": "JP",
+        "mask": null
+    },
+    {
+        "name": "Kenya",
+        "countrycode": "254",
+        "isocode": "KE",
+        "mask": null
+    },
+    {
+        "name": "Kyrgyzstan",
+        "countrycode": "996",
+        "isocode": "KG",
+        "mask": null
+    },
+    {
+        "name": "Cambodia",
+        "countrycode": "855",
+        "isocode": "KH",
+        "mask": null
+    },
+    {
+        "name": "Kiribati",
+        "countrycode": "686",
+        "isocode": "KI",
+        "mask": null
+    },
+    {
+        "name": "Comoros",
+        "countrycode": "269",
+        "isocode": "KM",
+        "mask": null
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "countrycode": "1",
+        "isocode": "KN",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "South Korea",
+        "countrycode": "82",
+        "isocode": "KR",
+        "mask": null
+    },
+    {
+        "name": "Kuwait",
+        "countrycode": "965",
+        "isocode": "KW",
+        "mask": null
+    },
+    {
+        "name": "Cayman Islands",
+        "countrycode": "1",
+        "isocode": "KY",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Kazakhstan",
+        "countrycode": "7",
+        "isocode": "KZ",
+        "mask": null
+    },
+    {
+        "name": "Laos",
+        "countrycode": "856",
+        "isocode": "LA",
+        "mask": null
+    },
+    {
+        "name": "Lebanon",
+        "countrycode": "961",
+        "isocode": "LB",
+        "mask": null
+    },
+    {
+        "name": "Saint Lucia",
+        "countrycode": "1",
+        "isocode": "LC",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Liechtenstein",
+        "countrycode": "423",
+        "isocode": "LI",
+        "mask": null
+    },
+    {
+        "name": "Sri Lanka",
+        "countrycode": "94",
+        "isocode": "LK",
+        "mask": null
+    },
+    {
+        "name": "Liberia",
+        "countrycode": "231",
+        "isocode": "LR",
+        "mask": null
+    },
+    {
+        "name": "Lesotho",
+        "countrycode": "266",
+        "isocode": "LS",
+        "mask": null
+    },
+    {
+        "name": "Lithuania",
+        "countrycode": "370",
+        "isocode": "LT",
+        "mask": null
+    },
+    {
+        "name": "Luxembourg",
+        "countrycode": "352",
+        "isocode": "LU",
+        "mask": null
+    },
+    {
+        "name": "Latvia",
+        "countrycode": "371",
+        "isocode": "LV",
+        "mask": null
+    },
+    {
+        "name": "Morocco",
+        "countrycode": "212",
+        "isocode": "MA",
+        "mask": null
+    },
+    {
+        "name": "Monaco",
+        "countrycode": "377",
+        "isocode": "MC",
+        "mask": null
+    },
+    {
+        "name": "Moldova",
+        "countrycode": "373",
+        "isocode": "MD",
+        "mask": null
+    },
+    {
+        "name": "Montenegro",
+        "countrycode": "382",
+        "isocode": "ME",
+        "mask": null
+    },
+    {
+        "name": "Saint Martin",
+        "countrycode": "590",
+        "isocode": "MF",
+        "mask": null
+    },
+    {
+        "name": "Madagascar",
+        "countrycode": "261",
+        "isocode": "MG",
+        "mask": null
+    },
+    {
+        "name": "Marshall Islands",
+        "countrycode": "692",
+        "isocode": "MH",
+        "mask": null
+    },
+    {
+        "name": "Macedonia",
+        "countrycode": "389",
+        "isocode": "MK",
+        "mask": null
+    },
+    {
+        "name": "Mali",
+        "countrycode": "223",
+        "isocode": "ML",
+        "mask": null
+    },
+    {
+        "name": "Myanmar",
+        "countrycode": "95",
+        "isocode": "MM",
+        "mask": null
+    },
+    {
+        "name": "Mongolia",
+        "countrycode": "976",
+        "isocode": "MN",
+        "mask": null
+    },
+    {
+        "name": "Macau",
+        "countrycode": "853",
+        "isocode": "MO",
+        "mask": null
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "countrycode": "1",
+        "isocode": "MP",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Mauritania",
+        "countrycode": "222",
+        "isocode": "MR",
+        "mask": null
+    },
+    {
+        "name": "Montserrat",
+        "countrycode": "1",
+        "isocode": "MS",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Malta",
+        "countrycode": "356",
+        "isocode": "MT",
+        "mask": null
+    },
+    {
+        "name": "Mauritius",
+        "countrycode": "230",
+        "isocode": "MU",
+        "mask": null
+    },
+    {
+        "name": "Maldives",
+        "countrycode": "960",
+        "isocode": "MV",
+        "mask": null
+    },
+    {
+        "name": "Malawi",
+        "countrycode": "265",
+        "isocode": "MW",
+        "mask": null
+    },
+    {
+        "name": "Mexico",
+        "countrycode": "52",
+        "isocode": "MX",
+        "mask": null
+    },
+    {
+        "name": "Malaysia",
+        "countrycode": "60",
+        "isocode": "MY",
+        "mask": null
+    },
+    {
+        "name": "Mozambique",
+        "countrycode": "258",
+        "isocode": "MZ",
+        "mask": null
+    },
+    {
+        "name": "Namibia",
+        "countrycode": "264",
+        "isocode": "NA",
+        "mask": null
+    },
+    {
+        "name": "New Caledonia",
+        "countrycode": "687",
+        "isocode": "NC",
+        "mask": null
+    },
+    {
+        "name": "Niger",
+        "countrycode": "227",
+        "isocode": "NE",
+        "mask": null
+    },
+    {
+        "name": "Nigeria",
+        "countrycode": "234",
+        "isocode": "NG",
+        "mask": null
+    },
+    {
+        "name": "Nicaragua",
+        "countrycode": "505",
+        "isocode": "NI",
+        "mask": null
+    },
+    {
+        "name": "Netherlands",
+        "countrycode": "31",
+        "isocode": "NL",
+        "mask": null
+    },
+    {
+        "name": "Norway",
+        "countrycode": "47",
+        "isocode": "NO",
+        "mask": null
+    },
+    {
+        "name": "Nepal",
+        "countrycode": "977",
+        "isocode": "NP",
+        "mask": null
+    },
+    {
+        "name": "Nauru",
+        "countrycode": "674",
+        "isocode": "NR",
+        "mask": null
+    },
+    {
+        "name": "Niue",
+        "countrycode": "683",
+        "isocode": "NU",
+        "mask": null
+    },
+    {
+        "name": "New Zealand",
+        "countrycode": "64",
+        "isocode": "NZ",
+        "mask": null
+    },
+    {
+        "name": "Oman",
+        "countrycode": "968",
+        "isocode": "OM",
+        "mask": null
+    },
+    {
+        "name": "Panama",
+        "countrycode": "507",
+        "isocode": "PA",
+        "mask": null
+    },
+    {
+        "name": "Peru",
+        "countrycode": "51",
+        "isocode": "PE",
+        "mask": null
+    },
+    {
+        "name": "French Polynesia",
+        "countrycode": "689",
+        "isocode": "PF",
+        "mask": null
+    },
+    {
+        "name": "Papua New Guinea",
+        "countrycode": "675",
+        "isocode": "PG",
+        "mask": null
+    },
+    {
+        "name": "Philippines",
+        "countrycode": "63",
+        "isocode": "PH",
+        "mask": null
+    },
+    {
+        "name": "Pakistan",
+        "countrycode": "92",
+        "isocode": "PK",
+        "mask": null
+    },
+    {
+        "name": "Poland",
+        "countrycode": "48",
+        "isocode": "PL",
+        "mask": null
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "countrycode": "508",
+        "isocode": "PM",
+        "mask": null
+    },
+    {
+        "name": "Pitcairn",
+        "countrycode": "64",
+        "isocode": "PN",
+        "mask": null
+    },
+    {
+        "name": "Puerto Rico",
+        "countrycode": "1",
+        "isocode": "PR",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Palestine",
+        "countrycode": "970",
+        "isocode": "PS",
+        "mask": null
+    },
+    {
+        "name": "Portugal",
+        "countrycode": "351",
+        "isocode": "PT",
+        "mask": null
+    },
+    {
+        "name": "Palau",
+        "countrycode": "680",
+        "isocode": "PW",
+        "mask": null
+    },
+    {
+        "name": "Paraguay",
+        "countrycode": "595",
+        "isocode": "PY",
+        "mask": null
+    },
+    {
+        "name": "Qatar",
+        "countrycode": "974",
+        "isocode": "QA",
+        "mask": null
+    },
+    {
+        "name": "Reunion",
+        "countrycode": "262",
+        "isocode": "RE",
+        "mask": null
+    },
+    {
+        "name": "Romania",
+        "countrycode": "40",
+        "isocode": "RO",
+        "mask": null
+    },
+    {
+        "name": "Serbia",
+        "countrycode": "381",
+        "isocode": "RS",
+        "mask": null
+    },
+    {
+        "name": "Russia",
+        "countrycode": "7",
+        "isocode": "RU",
+        "mask": null
+    },
+    {
+        "name": "Rwanda",
+        "countrycode": "250",
+        "isocode": "RW",
+        "mask": null
+    },
+    {
+        "name": "Saudi Arabia",
+        "countrycode": "966",
+        "isocode": "SA",
+        "mask": null
+    },
+    {
+        "name": "Solomon Islands",
+        "countrycode": "677",
+        "isocode": "SB",
+        "mask": null
+    },
+    {
+        "name": "Seychelles",
+        "countrycode": "248",
+        "isocode": "SC",
+        "mask": null
+    },
+    {
+        "name": "Sweden",
+        "countrycode": "46",
+        "isocode": "SE",
+        "mask": null
+    },
+    {
+        "name": "Singapore",
+        "countrycode": "65",
+        "isocode": "SG",
+        "mask": null
+    },
+    {
+        "name": "Saint Helena",
+        "countrycode": "290",
+        "isocode": "SH",
+        "mask": null
+    },
+    {
+        "name": "Slovenia",
+        "countrycode": "386",
+        "isocode": "SI",
+        "mask": null
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "countrycode": "47",
+        "isocode": "SJ",
+        "mask": null
+    },
+    {
+        "name": "Slovakia",
+        "countrycode": "421",
+        "isocode": "SK",
+        "mask": null
+    },
+    {
+        "name": "Sierra Leone",
+        "countrycode": "232",
+        "isocode": "SL",
+        "mask": null
+    },
+    {
+        "name": "San Marino",
+        "countrycode": "378",
+        "isocode": "SM",
+        "mask": null
+    },
+    {
+        "name": "Senegal",
+        "countrycode": "221",
+        "isocode": "SN",
+        "mask": null
+    },
+    {
+        "name": "Suriname",
+        "countrycode": "597",
+        "isocode": "SR",
+        "mask": null
+    },
+    {
+        "name": "South Sudan",
+        "countrycode": "211",
+        "isocode": "SS",
+        "mask": null
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "countrycode": "239",
+        "isocode": "ST",
+        "mask": null
+    },
+    {
+        "name": "El Salvador",
+        "countrycode": "503",
+        "isocode": "SV",
+        "mask": null
+    },
+    {
+        "name": "Saint Maarten",
+        "countrycode": "1",
+        "isocode": "SX",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Swaziland",
+        "countrycode": "268",
+        "isocode": "SZ",
+        "mask": null
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "countrycode": "1",
+        "isocode": "TC",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Chad",
+        "countrycode": "235",
+        "isocode": "TD",
+        "mask": null
+    },
+    {
+        "name": "Togo",
+        "countrycode": "228",
+        "isocode": "TG",
+        "mask": null
+    },
+    {
+        "name": "Thailand",
+        "countrycode": "66",
+        "isocode": "TH",
+        "mask": null
+    },
+    {
+        "name": "Tajikistan",
+        "countrycode": "992",
+        "isocode": "TJ",
+        "mask": null
+    },
+    {
+        "name": "Tokelau",
+        "countrycode": "690",
+        "isocode": "TK",
+        "mask": null
+    },
+    {
+        "name": "East Timor",
+        "countrycode": "670",
+        "isocode": "TL",
+        "mask": null
+    },
+    {
+        "name": "Turkmenistan",
+        "countrycode": "993",
+        "isocode": "TM",
+        "mask": null
+    },
+    {
+        "name": "Tunisia",
+        "countrycode": "216",
+        "isocode": "TN",
+        "mask": null
+    },
+    {
+        "name": "Tonga",
+        "countrycode": "676",
+        "isocode": "TO",
+        "mask": null
+    },
+    {
+        "name": "Turkey",
+        "countrycode": "90",
+        "isocode": "TR",
+        "mask": null
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "countrycode": "1",
+        "isocode": "TT",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Tuvalu",
+        "countrycode": "688",
+        "isocode": "TV",
+        "mask": null
+    },
+    {
+        "name": "Taiwan",
+        "countrycode": "886",
+        "isocode": "TW",
+        "mask": null
+    },
+    {
+        "name": "Tanzania",
+        "countrycode": "255",
+        "isocode": "TZ",
+        "mask": null
+    },
+    {
+        "name": "Ukraine",
+        "countrycode": "380",
+        "isocode": "UA",
+        "mask": null
+    },
+    {
+        "name": "Uganda",
+        "countrycode": "256",
+        "isocode": "UG",
+        "mask": null
+    },
+    {
+        "name": "United States",
+        "countrycode": "1",
+        "isocode": "US",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Uruguay",
+        "countrycode": "598",
+        "isocode": "UY",
+        "mask": null
+    },
+    {
+        "name": "Uzbekistan",
+        "countrycode": "998",
+        "isocode": "UZ",
+        "mask": null
+    },
+    {
+        "name": "Vatican",
+        "countrycode": "379",
+        "isocode": "VA",
+        "mask": null
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "countrycode": "1",
+        "isocode": "VC",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Venezuela",
+        "countrycode": "58",
+        "isocode": "VE",
+        "mask": null
+    },
+    {
+        "name": "British Virgin Islands",
+        "countrycode": "1",
+        "isocode": "VG",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "U.S. Virgin Islands",
+        "countrycode": "1",
+        "isocode": "VI",
+        "mask": "([000]) [000]-[0000]"
+    },
+    {
+        "name": "Vietnam",
+        "countrycode": "84",
+        "isocode": "VN",
+        "mask": null
+    },
+    {
+        "name": "Vanuatu",
+        "countrycode": "678",
+        "isocode": "VU",
+        "mask": null
+    },
+    {
+        "name": "Wallis and Futuna",
+        "countrycode": "681",
+        "isocode": "WF",
+        "mask": null
+    },
+    {
+        "name": "Samoa",
+        "countrycode": "685",
+        "isocode": "WS",
+        "mask": null
+    },
+    {
+        "name": "Kosovo",
+        "countrycode": "383",
+        "isocode": "XK",
+        "mask": null
+    },
+    {
+        "name": "Yemen",
+        "countrycode": "967",
+        "isocode": "YE",
+        "mask": null
+    },
+    {
+        "name": "Mayotte",
+        "countrycode": "262",
+        "isocode": "YT",
+        "mask": null
+    },
+    {
+        "name": "South Africa",
+        "countrycode": "27",
+        "isocode": "ZA",
+        "mask": null
+    },
+    {
+        "name": "Zambia",
+        "countrycode": "260",
+        "isocode": "ZM",
+        "mask": null
+    },
+    {
+        "name": "Zimbabwe",
+        "countrycode": "263",
+        "isocode": "ZW",
+        "mask": null
+    }
+]
