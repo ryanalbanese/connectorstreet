@@ -725,7 +725,6 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_os_notification_fallback_white_24dp
 drawable launch_screen
-drawable launch_screen_bitmap
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
