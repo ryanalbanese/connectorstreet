@@ -1,0 +1,22 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["module-resolver", {
+      "alias": {
+        "components": "connectorstreet60/src/components",
+        "constants": "connectorstreet60/src/constants",
+        "layouts": "connectorstreet60/src/layouts",
+        "reducers": "connectorstreet60/src/reducers",
+        "actions": "connectorstreet60/src/actions",
+        "images": "connectorstreet60/src/resources/images",
+        "fonts": "connectorstreet60/src/resources/fonts",
+        "resources": "connectorstreet60/src/resources",
+        "styles": "connectorstreet60/src/styles",
+        "api": "connectorstreet60/src/api",
+        "models": "connectorstreet60/src/models",
+        "utils": "connectorstreet60/src/utils"
+      }
+    }]
+  ]
+}

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryanalbanese/Documents/GitHub/connectorstreet60/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/ryanalbanese/Documents/GitHub/connectorstreet/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/ryanalbanese/.gradle/caches/transforms-2/files-2.1/5cc254e8622c84bf998680e9b6c9dcaa/res/values-hdpi-v4/values-hdpi-v4.xml",

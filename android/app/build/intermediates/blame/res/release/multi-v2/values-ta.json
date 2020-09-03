@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryanalbanese/Documents/GitHub/connectorstreet60/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/Users/ryanalbanese/Documents/GitHub/connectorstreet/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "/Users/ryanalbanese/.gradle/caches/transforms-2/files-2.1/acb0aac0641189be6b2ab84a02ba4e90/res/values-ta/values.xml",
