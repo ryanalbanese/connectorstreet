@@ -806,7 +806,7 @@ export default class AppWithNavigationState extends Component {
     let notifTitle = notification.payload && notification.payload.additionalData && notification.payload.additionalData.p2p_notification.type
 
     const hasPayload = notification.payload.additionalData ? true : false
-    console.log(notification)
+
     if (hasPayload){
        let realTitle
        if (notifTitle && notifTitle === 'makeIntroduction'){
