@@ -143,9 +143,9 @@ android {
         applicationId "com.connectorstreet1.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 16
+        versionCode 13
         multiDexEnabled true
-        versionName "5.2"
+        versionName "5.1"
         manifestPlaceholders = [
          onesignal_app_id: '6794f5a9-472a-417b-a4d6-ecc2a2545ab3',
          // Project number pulled from dashboard, local value is ignored.
@@ -214,6 +214,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-svg')
     implementation project(':react-native-contacts')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules

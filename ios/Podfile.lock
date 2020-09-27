@@ -14,11 +14,11 @@ PODS:
     - FirebaseCoreDiagnosticsInterop (~> 1.2)
     - GoogleUtilities/Environment (~> 6.5)
     - GoogleUtilities/Logger (~> 6.5)
-  - FirebaseCoreDiagnostics (1.4.0):
-    - GoogleDataTransportCCTSupport (~> 3.1)
-    - GoogleUtilities/Environment (~> 6.5)
-    - GoogleUtilities/Logger (~> 6.5)
-    - nanopb (~> 1.30905.0)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
   - FirebaseCoreDiagnosticsInterop (1.2.0)
   - Folly (2018.10.22.00):
     - boost-for-react-native
@@ -30,13 +30,11 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - GoogleDataTransport (6.2.1)
-  - GoogleDataTransportCCTSupport (3.2.0):
-    - GoogleDataTransport (~> 6.1)
-    - nanopb (~> 1.30905.0)
-  - GoogleUtilities/Environment (6.6.0):
+  - GoogleDataTransport (7.4.0):
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/Environment (6.7.2):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (6.6.0):
+  - GoogleUtilities/Logger (6.7.2):
     - GoogleUtilities/Environment
   - libwebp (1.1.0):
     - libwebp/demux (= 1.1.0)
@@ -47,13 +45,13 @@ PODS:
   - libwebp/mux (1.1.0):
     - libwebp/demux
   - libwebp/webp (1.1.0)
-  - nanopb (1.30905.0):
-    - nanopb/decode (= 1.30905.0)
-    - nanopb/encode (= 1.30905.0)
-  - nanopb/decode (1.30905.0)
-  - nanopb/encode (1.30905.0)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
   - OneSignal (2.13.1)
-  - PromisesObjC (1.2.9)
+  - PromisesObjC (1.2.10)
   - QBImagePickerController (3.4.0)
   - React (0.60.5):
     - React-Core (= 0.60.5)
@@ -105,9 +103,9 @@ PODS:
     - React
   - react-native-contacts (5.0.7):
     - React
-  - react-native-image-picker (2.3.1):
+  - react-native-image-picker (1.0.2):
     - React
-  - react-native-image-resizer (1.2.3):
+  - react-native-image-resizer (1.0.1):
     - React
   - react-native-onesignal (3.7.3):
     - OneSignal (= 2.13.1)
@@ -160,7 +158,7 @@ PODS:
     - React
   - RNGestureHandler (1.4.1):
     - React
-  - RNImageCropPicker (0.25.3):
+  - RNImageCropPicker (0.25.0):
     - QBImagePickerController
     - React-Core
     - React-RCTImage
@@ -171,10 +169,10 @@ PODS:
     - React
   - RNVectorIcons (6.6.0):
     - React
-  - RSKImageCropper (2.2.3)
-  - SDWebImage (5.8.3):
-    - SDWebImage/Core (= 5.8.3)
-  - SDWebImage/Core (5.8.3)
+  - RSKImageCropper (2.3.0)
+  - SDWebImage (5.9.1):
+    - SDWebImage/Core (= 5.9.1)
+  - SDWebImage/Core (5.9.1)
   - SDWebImageWebPCoder (0.2.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.0)
@@ -234,7 +232,6 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - GoogleDataTransport
-    - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - libwebp
     - nanopb
@@ -333,22 +330,21 @@ SPEC CHECKSUMS:
   AppsFlyerFramework: aeb793095c1b33170ae30bef66652c0645f409be
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: e3aad03778a456d77928f594a649e96995f1c872
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
   Firebase: 5719b4f965f76643241a1bb8244483ff6117db39
   FirebaseCore: 6023faeada5afa95a349fccafb40900e32e9ac42
-  FirebaseCoreDiagnostics: 4505e4d4009b1d93f605088ee7d7764d5f0d1c84
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
   FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
-  GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
-  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GoogleDataTransport: b7f406340a291370045a270c599e53c6fa6ec20f
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
-  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   OneSignal: fa98eaa90372bb367b6a4a1c1622ffb9832c7600
-  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
   React: 53c53c4d99097af47cf60594b8706b4e3321e722
   React-Core: ba421f6b4f4cbe2fb17c0b6fc675f87622e78a64
@@ -359,8 +355,8 @@ SPEC CHECKSUMS:
   React-jsinspector: e08662d1bf5b129a3d556eb9ea343a3f40353ae4
   react-native-appsflyer: b6e02c430f9e3e9d057780203c7950f2cc39d447
   react-native-contacts: a30bebe23ddeda7c34bf97cfa5f952201efc5329
-  react-native-image-picker: 668e72d0277dc8c12ae90e835507c1eddd2e4f85
-  react-native-image-resizer: 3a0a2ab15953b2aec5dda20338e3c6bd6c26e528
+  react-native-image-picker: 4c1d9b0377a3291d9b9a0e65c89e87d435e74516
+  react-native-image-resizer: ecae22b577b0425cd7803eb8145243038dd4b6bd
   react-native-onesignal: ece470306f7486853454793e954ac00eaa28f2dd
   react-native-splash-screen: 200d11d188e2e78cea3ad319964f6142b6384865
   react-native-webview: f72ac4078e115dfa741cc588acb1cca25566457d
@@ -382,12 +378,12 @@ SPEC CHECKSUMS:
   RNFBApp: 09caf098f066a44cf6f7ce9ea7dbc8b980ca10ec
   RNFS: a8fbe7060fa49157d819466404794ad9c58e58cf
   RNGestureHandler: 4cb47a93019c1a201df2644413a0a1569a51c8aa
-  RNImageCropPicker: bfb3ea9c8622f290532e2fe63f369e0d5a52f597
+  RNImageCropPicker: 0a731d984e64ee4c28bddaa7ce52262e4b80979f
   RNReanimated: 1b52415c4302f198cb581282a0166690bad62c43
   RNSVG: a53a5de0d90ec96a6502cc3a4534dfcc0c130622
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
-  RSKImageCropper: a446db0e8444a036b34f3c43db01b2373baa4b2a
-  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
+  RSKImageCropper: c337eacdcbed50e695e5153ff0c2b861b6ebfa84
+  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
   SDWebImageWebPCoder: 947093edd1349d820c40afbd9f42acb6cdecd987
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 

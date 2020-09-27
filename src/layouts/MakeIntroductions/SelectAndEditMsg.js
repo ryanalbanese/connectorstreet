@@ -597,6 +597,8 @@ export default class SelectAndEditMsg extends Component {
                     style={styles.textInput}
                     placeholder="Tap to send custom message..."
                     multiline={true}
+                    onSubmitEditing={() => Keyboard.dismiss()}
+                    blurOnSubmit={true}
                     returnKeyLabel={'done'}
                     returnKeyType={'done'}
                     onChangeText={text => this.onFieldChange('editedMessage', text)}>

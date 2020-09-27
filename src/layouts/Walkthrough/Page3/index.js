@@ -14,7 +14,12 @@ export class Page3 extends Component {
 				<View style={styles.wrapper}>
 					<Background />
 						<View>
-							<View	style={styles.iconsWrapper}>
+							<View	style={{
+								alignSelf: 'center',
+								flexDirection: 'row',
+								marginTop: width(10),
+								marginBottom: width(13)
+							}}>
 								<Icon
 									name='circle-o'
 									type='font-awesome'
@@ -54,11 +59,7 @@ export class Page3 extends Component {
 							<Avatar image={iconImages.fakeManAvatar}/>
 						</View>
 						<Text style={styles.hintText}>
-							They now have each other’s
-							contact information, and you
-							have the good feeling that
-							comes from bringing people
-							together!
+							They now have each other's contact information and can start connecting right way!
 						</Text>
 						<TouchableOpacity onPress={() => this.props.navigation.navigate('Main')} >
 							<View style={styles.btnInner}>

@@ -6,17 +6,17 @@ import { width, height, iconImages } from 'constants/config'
 export default () => {
     return (
         <Image
-            style={{ 
-                flex: 1, 
+            style={{
+                flex: 1,
                 width: null,
-                height: null, 
-                position: 'absolute', 
-                top: 0, 
+                height: null,
+                position: 'absolute',
+                top: 0,
                 right: 0,
-                bottom: 0, 
+                bottom: 0,
                 left: 0
             }}
-            source={iconImages.walkthroughBackgroundImage}
+            source={iconImages.homeBg}
             resizeMode='cover'
         />
     );

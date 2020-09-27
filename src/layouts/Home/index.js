@@ -472,7 +472,7 @@ export default class Home extends Component {
   				<Background />
   				<View style={styles.contentWrapper}>
   					<NavBar {...navBarProps} transparent statusBarBackgroundColor={'#399DC8'} navigation={navigation} />
-
+            <ScrollView contentContainerStyle={{flexGrow : 1, justifyContent : 'center'}}>
             <View style={styles.content}>
   						<View style={styles.topPartWrapper}>
   							{
@@ -519,6 +519,7 @@ export default class Home extends Component {
   						</SafeAreaView>
 
   					</View>
+            </ScrollView>
   				</View>
   			</View>
   		);

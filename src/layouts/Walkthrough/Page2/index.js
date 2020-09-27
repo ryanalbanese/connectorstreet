@@ -19,7 +19,7 @@ export class Page2 extends Component {
 										style={{
 											alignSelf: 'center',
 											flexDirection: 'row',
-											marginTop: width(7.8),
+											marginTop: width(10),
 											marginBottom: width(13)
 										}}>
 										<Icon
@@ -70,7 +70,7 @@ export class Page2 extends Component {
 										width: width(80),
 										alignSelf: 'center'
 									}}>
-									Suggest they get together for:
+									Suggest they get together
 								</Text>
                 <View
 									style={{
@@ -87,14 +87,7 @@ export class Page2 extends Component {
 											}}
 											source={iconImages.martiniGlassIconWhite}
 											resizeMode='contain'/>
-										<Text
-											style={{
-												fontSize: width(4),
-												color: 'white',
-												// alignSelf: 'center'
-											}}>
-											Social
-											</Text>
+
                     </View>
                     <View style={{ flex: 0.25, alignItems: 'center', alignSelf: 'center'}}>
 											<Image
@@ -105,31 +98,18 @@ export class Page2 extends Component {
 												}}
 												source={iconImages.buildingIconWhite}
 												resizeMode='contain'/>
-                        <Text
-													style={{
-															fontSize: width(4),
-															color: 'white',
-															// alignSelf: 'center'
-													}}>
-													Business
-												</Text>
+
                     </View>
                    	<View style={{ flex: 0.25, alignItems: 'center', alignSelf: 'center'}}>
 											<Image
 												style={{
-													width: width(12),
-													height: width(12),
+													width: width(16),
+													height: width(16),
 													marginBottom: width(2.8)
 												}}
 												source={iconImages.heartOutlineIconWhite}
 												resizeMode='contain'/>
-                        <Text
-													style={{
-														fontSize: width(4),
-														color: 'white',
-													}}>
-													Romance
-												</Text>
+
                     </View>
                 </View>
                 <View style={styles.walkthroughWrapper}>

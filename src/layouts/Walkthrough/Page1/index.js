@@ -23,7 +23,7 @@ export class Page1 extends Component {
 										style={{
 												alignSelf: 'center',
 												flexDirection: 'row',
-												marginTop: width(3.8),
+												marginTop: width(10),
 												marginBottom: width(13)
 										}}>
 											<Icon
@@ -56,24 +56,24 @@ export class Page1 extends Component {
 									}}>
 										<Image
 											style={{
-													width: width(14),
-													height: width(14),
+													width: width(18),
+													height: width(18),
 											}}
-											source={iconImages.buildingIconWhite}
+											source={iconImages.handshakeIconWhite}
 											resizeMode='contain'/>
 										<Image
 											style={{
-												width: width(14),
-												height: width(14),
+												width: width(18),
+												height: width(18),
 											}}
-											source={iconImages.martiniGlassIconWhite}
+											source={iconImages.peopleIconWhite}
 											resizeMode='contain'/>
 										<Image
 											style={{
-												width: width(14),
-												height: width(14),
+												width: width(18),
+												height: width(18),
 											}}
-											source={iconImages.heartOutlineIconWhite}
+											source={iconImages.connectionIconWhite}
 											resizeMode='contain'/>
 								</View>
 								<Text
@@ -81,12 +81,12 @@ export class Page1 extends Component {
 											fontSize: width(4.6),
 											color: 'white',
 											textAlign: 'center',
-											width: width(60),
+											width: width(80),
 											alignSelf: 'center',
-											marginTop: width(-16),
+											marginTop: width(-66),
 											lineHeight: width(8)
 									}}>
-									Connect friends for business, friendship and romance
+									Connect friends and colleagues in just a few clicks.
 								</Text>
 								<View style={styles.walkthroughWrapper}>
 									<TouchableOpacity style={styles.walkthroughBtnWrapper} onPress={() => this.props.navigation.navigate('Main')}>

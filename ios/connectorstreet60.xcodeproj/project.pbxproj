@@ -47,20 +47,6 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = connectorstreet60;
 		};
-		05F3809822FE06740079FD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05F3809322FE06730079FD69 /* RNSVG.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0CF68AC11AF0540F00FF9E5C;
-			remoteInfo = RNSVG;
-		};
-		05F3809A22FE06740079FD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05F3809322FE06730079FD69 /* RNSVG.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 94DDAC5C1F3D024300EED511;
-			remoteInfo = "RNSVG-tvOS";
-		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
@@ -92,7 +78,6 @@
 		056A3C7722F8D6BF00CBCFB9 /* connectorstreet60.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = connectorstreet60.entitlements; path = connectorstreet60/connectorstreet60.entitlements; sourceTree = "<group>"; };
 		05E1249B22F4E9330005372F /* InputMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = InputMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E1249D22F4E9460005372F /* libPods-connectorstreet60.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-connectorstreet60.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05F3809322FE06730079FD69 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; };
 		05FE8D5C23102D0200D9F1C9 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FE8D712310311500D9F1C9 /* libreact-native-onesignal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-onesignal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074E044FD38C0B97AEDE1A9D /* Pods-connectorstreet60-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-connectorstreet60-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-connectorstreet60-tvOSTests/Pods-connectorstreet60-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,15 +193,6 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		05F3809422FE06730079FD69 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				05F3809922FE06740079FD69 /* libRNSVG.a */,
-				05F3809B22FE06740079FD69 /* libRNSVG-tvOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* connectorstreet60 */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +267,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				05F3809322FE06730079FD69 /* RNSVG.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -483,12 +458,6 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 05F3809422FE06730079FD69 /* Products */;
-					ProjectRef = 05F3809322FE06730079FD69 /* RNSVG.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* connectorstreet60 */,
@@ -499,23 +468,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		05F3809922FE06740079FD69 /* libRNSVG.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNSVG.a;
-			remoteRef = 05F3809822FE06740079FD69 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		05F3809B22FE06740079FD69 /* libRNSVG-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRNSVG-tvOS.a";
-			remoteRef = 05F3809A22FE06740079FD69 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -1001,7 +953,7 @@
 				INFOPLIST_FILE = connectorstreet60/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 13.6;
+				MARKETING_VERSION = 14.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1036,7 +988,7 @@
 				INFOPLIST_FILE = connectorstreet60/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 13.6;
+				MARKETING_VERSION = 14.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
