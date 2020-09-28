@@ -188,7 +188,7 @@ export const iconImages = {
 
 }
 
-export const countryCodesUrl = 'https://testapi.cstreet.app/v1/utility/country_codes'
+export const countryCodesUrl = 'https://api.cstreet.app/v1/utility/country_codes'
 
 export const getBackgroundImageByType = (type) => {
 	switch (type) {
@@ -268,7 +268,7 @@ export const defaultSettings = {
 
 }
 
-export const baseUrl = 'https://testapi.cstreet.app/v1'
+export const baseUrl = 'https://api.cstreet.app/v1'
 
 export const onesignalAppId = '6794f5a9-472a-417b-a4d6-ecc2a2545ab3'
 
