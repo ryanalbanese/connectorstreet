@@ -137,6 +137,8 @@ PODS:
     - React-Core (= 0.60.5)
   - React-RCTWebSocket (0.60.5):
     - React-Core (= 0.60.5)
+  - ReactNativeExceptionHandler (2.10.8):
+    - React
   - ReactNativeFabric (0.5.2):
     - Crashlytics
     - Fabric
@@ -207,6 +209,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - ReactNativeExceptionHandler (from `../node_modules/react-native-exception-handler`)
   - ReactNativeFabric (from `../node_modules/react-native-fabric`)
   - ReactNativePermissions (from `../node_modules/react-native-permissions`)
   - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
@@ -299,6 +302,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   React-RCTWebSocket:
     :path: "../node_modules/react-native/Libraries/WebSocket"
+  ReactNativeExceptionHandler:
+    :path: "../node_modules/react-native-exception-handler"
   ReactNativeFabric:
     :path: "../node_modules/react-native-fabric"
   ReactNativePermissions:
@@ -370,6 +375,7 @@ SPEC CHECKSUMS:
   React-RCTText: b074d89033583d4f2eb5faf7ea2db3a13c7553a2
   React-RCTVibration: 2105b2e0e2b66a6408fc69a46c8a7fb5b2fdade0
   React-RCTWebSocket: cd932a16b7214898b6b7f788c8bddb3637246ac4
+  ReactNativeExceptionHandler: 8025d98049c25f186835a3af732dd7c9974d6dce
   ReactNativeFabric: d05320ff347d5c72567c115b97edeead111ac4d2
   ReactNativePermissions: f0aec11433d43d45953c678b6982921d83ad94c8
   rn-fetch-blob: 651b8d076b43d0d7aa294a3d9ec16c00aab8bef9
@@ -387,6 +393,6 @@ SPEC CHECKSUMS:
   SDWebImageWebPCoder: 947093edd1349d820c40afbd9f42acb6cdecd987
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
-PODFILE CHECKSUM: 52c9f13ab39bb2c33676d130a2ca0f2d91e9e0d0
+PODFILE CHECKSUM: b386bc8084f037747d307c3e719720176cacefaa
 
 COCOAPODS: 1.9.3

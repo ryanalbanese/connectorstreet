@@ -6,7 +6,9 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "postinstall": "npx jetify"
+    "postinstall": "npx jetify",
+    "move-static": "cp -a ./node_modules/@pdftron/pdfjs-express/public/. ./dist/public/pdfjsexpress",
+    "build": "npm run-script build && npm run move-static"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.5.1",
