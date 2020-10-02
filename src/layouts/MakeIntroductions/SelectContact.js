@@ -53,11 +53,15 @@ function isLetter(str) {
     getUsers: state.getUsers,
     contactsExist: state.contactsExist,
     remoteContacts: state.remoteContacts,
-    makeIntroductionData: state.makeIntroductionData
+    makeIntroductionData: state.makeIntroductionData,
+    logger: state.logger
   }),
   dispatch => ({
     setMakeIntroductionData: (data) => {
       dispatch(ApiUtils.setMakeIntroductionData(data))
+    },
+    actionLog: (payload) => {
+      dispatch(Models.logger.logger(payload))
     },
     dispatch: dispatch,
     setContacts: (contacts, type) => {
@@ -85,7 +89,6 @@ export default class SelectContact extends Component {
 
   constructor(props) {
     super(props);
-asd
     const fields = {
       search: '',
       customContact: ''
@@ -611,9 +614,18 @@ asd
 
  componentWillMount(){
 
-  const {contacts, actionGetRemoteList, userData} = this.props
+  const {contacts, actionGetRemoteList, userData, actionLog} = this.props
 
   this.checkPermissions()
+
+  if (contacts){
+    actionLog({
+      "level":"debug",
+      "message":"{module : LOG_ANDROID_CONTACTS, method: UI_LOG_CONTACTS}",
+      "data": JSON.stringify(contacts)
+    })
+  }
+
 
   this.setState({
     backgroundRefresh: true,
