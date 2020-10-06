@@ -265,6 +265,7 @@ export default class NotiffSelectAndEditMsg extends Component {
                 backgroundColor: 'white',
                 borderWidth: 1
               }}
+              onSubmitEditing={() => Keyboard.dismiss()}
               placeholder="Send custom message..."
               onChangeText={text => this.onFieldChange('editedMessage', text)} />
           </View>

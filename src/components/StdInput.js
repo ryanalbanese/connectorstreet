@@ -218,7 +218,7 @@ export default class StdInput extends Component {
             type == 'splited-switch'
               ? <View style={[styles.switchWrapper]}>
                   <View style={styles.switchInner}>
-                    <Switch style={{backgroundColor: '#DDDDDD', borderRadius: 17}} {...this.props} thumbColor="white" />
+                    <Switch style={{borderRadius: 17}} {...this.props} onTintColor="green" thumbColor="white" />
                   </View>
                 </View>
               : null
@@ -373,7 +373,7 @@ const styles = StyleSheet.create({
   switchWrapper: {
     alignItems: 'flex-start',
     justifyContent: 'center',
-    width: width(12)
+    width: width(12),
   },
   switchInner: {
 
