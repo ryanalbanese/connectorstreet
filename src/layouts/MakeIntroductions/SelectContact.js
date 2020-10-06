@@ -618,12 +618,6 @@ export default class SelectContact extends Component {
 
   this.checkPermissions()
 
-  if (contacts){
-    actionLog({
-      "level":"debug",
-      "message":"{module : LOG_ANDROID_CONTACTS, method: UI_LOG_CONTACTS, data: "+JSON.stringify(contacts)+"}",
-    })
-  }
 
 
   this.setState({
