@@ -377,10 +377,6 @@ export default class Send extends Component {
     const prefix = Platform.OS == 'ios'
       ? 'sms:'
       : 'sms:'
-      actionLog({
-        "level":"debug",
-        "message":"{module : LOG_PHONENUMBER, method: UI_LOG_PHONENUMBER, data: {prefix: "+prefix+", phone : "+mateUserModel.phone+"}"
-      })
       mateUserModel && Linking.openURL(prefix + mateUserModel.phone)
   }
 
