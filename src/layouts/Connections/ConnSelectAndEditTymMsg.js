@@ -575,17 +575,20 @@ export default class SelectAndEditTymMsg extends Component {
             <View style={styles.textInputView}>
               <View style={styles.formWrapper}>
                 <TextInput
-                  allowFontScaling={false}
-                  refName={comp => this.bigInput = comp}
-                  onFocus={this.onFocusInput}
-                  onBlur={this.onBlurInput}
-                  underlineColorAndroid="transparent"
-                  style={styles.textInput}
-                  placeholder="Tap to send custom message..."
-                  multiline={true}
-                  returnKeyLabel={'done'}
-                  returnKeyType={'done'}
-                  onChangeText={text => this.onFieldChange('editedMessage', text)}>
+                onSubmitEditing={() => Keyboard.dismiss()}
+                allowFontScaling={false}
+                refName={comp => this.bigInput = comp}
+                onFocus={this.onFocusInput}
+                onBlur={this.onBlurInput}
+                underlineColorAndroid="transparent"
+                style={styles.textInput}
+                placeholder="Tap to send custom message..."
+                multiline={true}
+                onSubmitEditing={() => Keyboard.dismiss()}
+                blurOnSubmit={true}
+                returnKeyLabel={'done'}
+                returnKeyType={'done'}
+                onChangeText={text => this.onFieldChange('editedMessage', text)}>
                     <Text>{editedMessage}</Text>
                   </TextInput>
                   <View style={styles.loadingIndicatorWrapper}>

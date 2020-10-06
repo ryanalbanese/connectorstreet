@@ -23,18 +23,19 @@ target 'connectorstreet60' do
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
   pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
-
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
-  
+
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
   pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'
 
   pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+
+  pod 'ReactNativeExceptionHandler', :path => '../node_modules/react-native-exception-handler'
 
   target 'connectorstreet60Tests' do
     inherit! :search_paths

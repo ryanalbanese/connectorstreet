@@ -211,6 +211,7 @@ export default class Home extends Component {
       actionGetNotifications(userData.userModel.user_uid)
     }
 
+
   }
 
   async componentDidMount () {

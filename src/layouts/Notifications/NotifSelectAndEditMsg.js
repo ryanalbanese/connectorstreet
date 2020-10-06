@@ -599,6 +599,7 @@ export default class SelectAndEditMsg extends Component {
 
                 <View style={styles.formWrapper}>
                   <TextInput
+                    onSubmitEditing={() => Keyboard.dismiss()}
                     refName={comp => this.bigInput = comp}
                     ref={'textInputFocus'}
                     onFocus={this.onFocusInput}
@@ -606,6 +607,8 @@ export default class SelectAndEditMsg extends Component {
                     underlineColorAndroid="transparent"
                     style={styles.textInput}
                     placeholder="Tap to send custom message..."
+                    returnKeyLabel={'done'}
+                    returnKeyType={'done'}
                     multiline={true}
                     onChangeText={text => this.onFieldChange('editedMessage', text)}>
                       <Text>{editedMessage}</Text>

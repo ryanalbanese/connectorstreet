@@ -487,7 +487,7 @@ export default class SelectAndEditMsg extends Component {
                         <View style={styles.middleCompOverlay}>
                           <View style={styles.roundView}>
                             <Text style={styles.roundViewText}>
-                              <Image style={styles.arrowImage} resizeMode='contain' source={iconImages.doubleArrow} />
+                              TO
                             </Text>
                           </View>
                         </View>
@@ -594,6 +594,7 @@ export default class SelectAndEditMsg extends Component {
               <View style={styles.textInputView}>
                 <View style={styles.formWrapper}>
                   <TextInput
+                  onSubmitEditing={() => Keyboard.dismiss()}
                     allowFontScaling={false}
                     refName={comp => this.bigInput = comp}
                     onFocus={this.onFocusInput}
@@ -915,8 +916,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   roundViewText: {
-    fontSize: width(4),
-    marginTop: width(-0.4)
+    color: '#4CD0D9',
+    fontSize: width(2.5),
+    fontWeight: 'bold'
   },
   formWrapper:{
     flexDirection: 'row',
