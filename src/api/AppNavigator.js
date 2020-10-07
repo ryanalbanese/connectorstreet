@@ -670,13 +670,12 @@ export default class AppWithNavigationState extends Component {
             }
 
           })
+
           return {
             name: (item.givenName || '') +' '+ (item.familyName || ''),
             fName: item.givenName && item.givenName || '',
             isUser: isUser,
-            sName: Platform.OS == 'ios'
-              ? item.familyName || ''
-              : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
+            sName: item.familyName || '',
             phoneNumbers : mapContacts,
             phone: ' ',
             csPhoneNumber: csPhoneNumber,
@@ -771,9 +770,7 @@ export default class AppWithNavigationState extends Component {
             name: (item.givenName || '') +' '+ (item.familyName || ''),
             fName: item.givenName && item.givenName || '',
             isUser: isUser,
-            sName: Platform.OS == 'ios'
-              ? item.familyName || ''
-              : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
+            sName: item.familyName || '',
             phoneNumbers : mapContacts,
             phone: ' ',
             csPhoneNumber: csPhoneNumber,
