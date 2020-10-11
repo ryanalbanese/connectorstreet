@@ -160,7 +160,9 @@ export default class Home extends Component {
                   name: 'Connector Street Friends',
                   fName: item.givenName && item.givenName || '',
                   isUser: true,
-                  sName: item.familyName || '',
+                  sName: Platform.OS == 'ios'
+                    ? item.familyName || ''
+                    : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
                   phoneNumbers : mapContacts,
                   phone: ' ',
                   csPhoneNumber: item.csPhoneNumber,

@@ -203,7 +203,9 @@ export default class SelectContact extends Component {
             name: (item.givenName || '') +' '+ (item.familyName || ''),
             fName: item.givenName && item.givenName || '',
             isUser: isUser,
-            sName: item.familyName || '',
+            sName: Platform.OS == 'ios'
+              ? item.familyName || ''
+              : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
             phoneNumbers : mapContacts,
             phone: ' ',
             defaultPhone : foundDefaultPhone || '',
@@ -488,7 +490,9 @@ export default class SelectContact extends Component {
            fName: item.givenName && item.givenName || '',
            csPhoneNumber: csPhoneNumber,
            isUser: isUser,
-           sName: item.familyName || '',
+           sName: Platform.OS == 'ios'
+             ? item.familyName || ''
+             : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
            phoneNumbers : mapContacts,
            phone: ' ',
            defaultPhone : foundDefaultPhone || '',
