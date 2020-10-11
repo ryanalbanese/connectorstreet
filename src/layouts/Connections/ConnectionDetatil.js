@@ -178,9 +178,7 @@ export default class Send extends Component {
           return {
             name: (item.givenName || '') +' '+ (item.familyName || ''),
             fName: item.givenName && item.givenName.split(' ')[0] || '',
-            sName: Platform.OS == 'ios'
-              ? item.familyName || ''
-              : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
+            sName: item.familyName || '',
             phone: item.phoneNumbers[0] && item.phoneNumbers[0].number,
             avatar: item.thumbnailPath,
             email: item.emailAddresses && item.emailAddresses[0] && item.emailAddresses[0].email
@@ -377,6 +375,10 @@ export default class Send extends Component {
     const prefix = Platform.OS == 'ios'
       ? 'sms:'
       : 'sms:'
+      actionLog({
+        "level":"debug",
+        "message":"{module : LOG_PHONENUMBER, method: UI_LOG_PHONENUMBER, data: {prefix: "+prefix+", phone : "+mateUserModel.phone+"}"
+      })
       mateUserModel && Linking.openURL(prefix + mateUserModel.phone)
   }
 

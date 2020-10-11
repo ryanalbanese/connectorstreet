@@ -338,6 +338,12 @@ export default class AddCustomContact extends Component {
 
     const {fields} = this.state
 
+
+    actionLog({
+      "level":"debug",
+      "message":"{module : CONTACT_LIST, method: UI_SELECT_CONTACT, "+JSON.stringify(userData.userModel)+", "+JSON.stringify(fields)+"}"
+    })
+
     personKey === 'fPerson'
     ? this.setState({showCountryBanner: false},
     () => setTimeout(() => {
@@ -902,9 +908,7 @@ export default class AddCustomContact extends Component {
           return {
             name: (item.givenName || '') +' '+ (item.familyName || ''),
             fName: item.givenName && item.givenName.split(' ')[0] || '',
-            sName: Platform.OS == 'ios'
-              ? item.familyName || ''
-              : item.givenName && item.givenName.split(' ')[1] || item.familyName || '',
+            sName: item.familyName || '',
             phone: item.phoneNumbers[0] && item.phoneNumbers[0].number,
             avatar: item.thumbnailPath,
             email: item.emailAddresses && item.emailAddresses[0] && item.emailAddresses[0].email
