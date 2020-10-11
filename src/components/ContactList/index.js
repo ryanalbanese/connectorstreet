@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, ScrollView, SectionList, Text, Image, TouchableOpacity } from 'react-native'
-import SectionListContacts from 'react-native-tag-contacts'
+import SectionListContacts from 'react-native-sectionlist-contacts'
 
 import { width, height, iconImages, alphabet } from 'constants/config'
 
@@ -25,7 +25,7 @@ export default class ContactList extends Component {
   render() {
 
     const { wrapperStyle, sectionListStyle, rowProps, sectionProps, header } = this.props
-
+    
     return (
       <View style={styles.wrapper}>
               {
