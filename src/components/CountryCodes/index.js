@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, ScrollView, SectionList, Text, TouchableOpacity, Image } from 'react-native'
 
-import SectionListContacts from 'react-native-sectionlist-contacts'
+import SectionListContacts from 'react-native-tag-contacts'
 
 import { width, height, iconImages, alphabet } from 'constants/config'
 
