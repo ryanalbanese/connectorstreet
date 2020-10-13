@@ -24,7 +24,7 @@ import FastImage from 'react-native-fast-image'
 import ImageCropper from 'react-native-image-crop-picker';
 import { KeyboardAccessoryView } from 'react-native-keyboard-accessory'
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view'
-
+import _ from 'lodash'
 import {
   width,
   height,
@@ -1151,6 +1151,8 @@ export default class AddCustomContact extends Component {
       }
     }
 
+    let uniqPN = phoneNumbers && phoneNumbers.length && _.uniqBy(phoneNumbers, 'number')
+
     return (
       <View style={styles.wrapper} contentContainerStyle={styles.contentContainerStyle}>
 
@@ -1232,7 +1234,7 @@ export default class AddCustomContact extends Component {
                     value={customPhone != ''?
                       'custom'
                       : origPhone}
-                    phoneData={phoneNumbers} onChangeText={text => this.onFieldChange('picker', text)}
+                    phoneData={uniqPN} onChangeText={text => this.onFieldChange('picker', text)}
                   />
                 </View>
 
