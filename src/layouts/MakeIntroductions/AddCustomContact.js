@@ -38,7 +38,8 @@ import {
 
 import {
   checkRequestPermission,
-  requestContactsPermission
+  requestContactsPermission,
+  validatePhoneField
 } from 'constants/helpers'
 
 import {cleanPhoneNumb, getAuthHeader, checkNextProps, fullCleanPhone, connectWithNavigationIsFocused} from 'utils'
@@ -574,8 +575,8 @@ export default class AddCustomContact extends Component {
     const {state,navigation, setMakeIntroductionData, userData, actionGetUsers, contacts, makeIntroductionData} = this.props
     const {isLoading} = this.state
     const cleanedPhone = fullCleanPhone(fields.phone)
-
     const personKey = navigation.state.params && navigation.state.params.personKey
+    personKey === 'sPerson' ? console.log(makeIntroductionData.fPerson.phone, cleanedPhone) : console.log('nope')
     if (!fields.email == '' && !fields.email.includes("@")){
       this.setState({
         error: errorHints.emailError
@@ -591,7 +592,13 @@ export default class AddCustomContact extends Component {
       })
 
     }
-    else if (personKey === 'sPerson' && makeIntroductionData.fPerson.phone == cleanedPhone || personKey === 'fPerson' && makeIntroductionData.sPerson.phone == cleanedPhone){
+
+    else if (
+         (personKey === 'sPerson' && makeIntroductionData.fPerson.phone && cleanedPhone.includes(makeIntroductionData.fPerson.phone) || personKey === 'sPerson' && makeIntroductionData.fPerson.phone && makeIntroductionData.fPerson.phone.includes(cleanedPhone))
+         ||
+         (personKey === 'fPerson' && makeIntroductionData.sPerson.phone && cleanedPhone.includes(makeIntroductionData.sPerson.phone) || personKey === 'fPerson' && makeIntroductionData.sPerson.phone && makeIntroductionData.sPerson.phone.includes(cleanedPhone)
+       ))
+      {
       this.setState({
         error: errorHints.introduceSamePerson
       }, () => {
