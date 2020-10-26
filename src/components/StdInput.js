@@ -376,7 +376,7 @@ const styles = StyleSheet.create({
     width: width(12),
   },
   switchInner: {
-
+    backgroundColor: 'transparent'
   },
   leftIconImageWrapper: {
     width: width(30),
