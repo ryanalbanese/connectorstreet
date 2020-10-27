@@ -297,10 +297,10 @@ export default class AddContactInfo extends Component {
                 returnKeyType={ 'done' }
                 value={fields.phone}
                 keyboardType='phone-pad'
-                {...(Platform.OS === 'ios'? {color: '#000000'}: undefined)}
                 customItemStyle={{color: '#000000'}}
                 onChangeText={text => this.onFieldChange('phone', text)} />
                 :<PhoneInput
+                {...(Platform.OS === 'ios'? {color: '#000000'}: undefined)}
                 placeholderTextColor="#7F7F7F"
                 refName={comp => this['phone'] = comp}
                 countryProps={{
@@ -308,6 +308,11 @@ export default class AddContactInfo extends Component {
                       paddingRight: width(0)
                     }
                   }} phoneProps={{
+                    ...Platform.select({
+                    ios: {
+                    color: '#000000',
+                    },
+                    }),
                     wrapperStyle: {
                       marginLeft: width(0)
                     },
