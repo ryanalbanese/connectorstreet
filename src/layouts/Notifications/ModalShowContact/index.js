@@ -151,12 +151,12 @@ export default class ModalShowContact extends Component {
 				        </TouchableOpacity>
 								{
 									isUser?
-									<View style={styles.row}>
+									<>
 										<TouchableOpacity style={[styles.messageButton, styles.btnCenter]}  onPress={() => onBtnPress('message')} activeOpacity={ 0.5 } >
 						          <Image style={styles.btnIcon} source={ iconImages.message } resizeMode='contain' />
 						          <Text style={styles.btnText}>Message</Text>
 						        </TouchableOpacity>
-					      </View>
+					      </>
 								:null
 								}
 				      </View>

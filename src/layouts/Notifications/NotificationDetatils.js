@@ -71,6 +71,7 @@ import ModalShowInfo from './ModalShowInfo';
 export default class NotificationDetails extends Component {
   constructor(props) {
     super(props);
+    const {navigation} = this.props
     const fields = {
       message: '',
     }
@@ -78,14 +79,16 @@ export default class NotificationDetails extends Component {
       fields,
       isLoading: true,
       isUser: false,
-      messageIsSaved: false
+      messageIsSaved: false,
+      introData: navigation.state && navigation.state.params && navigation.state.params.detailsData
     }
   }
 
   componentWillMount(){
 
     const {navigation, userData, actionUpdateNotifications, actionGetUsers} = this.props
-    const mateUserModel = getUserModel(userData, navigation.state && navigation.state.params && navigation.state.params.detailsData)
+
+    const mateUserModel = getUserModel(userData, this.state.introData)
 
     actionGetUsers({
       mobilePhone: mateUserModel.phone
@@ -93,11 +96,11 @@ export default class NotificationDetails extends Component {
 
     const key = 'opened_'+userData.userModel.user_uid+''
 
-      if (!navigation.state.params.detailsData[key]){
+      if (!this.state.introData[key]){
 
         navigation.state.params.detailsData['opened_'+userData.userModel.user_uid+''] = true;
 
-        actionUpdateNotifications(navigation.state.params.detailsData.id, navigation.state.params.detailsData)
+        actionUpdateNotifications(this.state.introData.id, this.state.introData)
 
       }
   }
@@ -105,6 +108,8 @@ export default class NotificationDetails extends Component {
   componentWillReceiveProps(nextProps, state) {
 
     const { userData, navigation, deleteIntro, getUserCustomMessages, actionGetCustomMessages } = this.props
+
+    const {introData} = this.state
 
     const propsCheckerGetUserCustomMessages = checkNextProps(nextProps, this.props, 'getUserCustomMessages', 'anyway')
 
@@ -127,10 +132,16 @@ export default class NotificationDetails extends Component {
 
     else if (propsCheckersGetUsers && propsCheckersGetUsers != 'empty') {
 
+      const foundUserData = getUserModel(userData, introData)
+
+      if (!foundUserData.user_uid){
+        foundUserData['user_uid'] = nextProps.getUsers.response.user_uid
+        foundUserData['userId'] = nextProps.getUsers.response.user_uid
+      }
+      console.log(this.state.introData)
       this.setState({
         isLoading: false,
-        isUser: true,
-        detailsData: nextProps.getUsers.response
+        isUser: true
       })
     }
 
@@ -153,7 +164,7 @@ export default class NotificationDetails extends Component {
 
   avatarPress = () => {
     const {navigation} = this.props
-    const detailsData = navigation.state && navigation.state.params && navigation.state.params.detailsData
+    const detailsData = this.state.introData
       this.setState(
         {
           modalShowUserInfo: true,
@@ -166,7 +177,7 @@ export default class NotificationDetails extends Component {
 
     const { navigation } = this.props
     const { messageIsSaved, isUser} = this.state
-    const detailsData = navigation.state && navigation.state.params && navigation.state.params.detailsData
+    const detailsData = this.state.introData
 
     const button = {
       text: messageIsSaved
@@ -174,8 +185,9 @@ export default class NotificationDetails extends Component {
         : 'Send '+detailsData.userBy.firstName+' a message',
       onPress: () => this.onIntroducerMessagePress(detailsData)
     }
+
     const messageButton = {
-      onPress: () => navigation.navigate('ConnIntroductionDetatils', {detailsData: data, refresh: this.refresh}),
+      onPress: () => navigation.navigate('ConnIntroductionDetatils', {detailsData: this.state.introData, refresh: this.refresh}),
       text: 'View Introduction'
     }
     const viewIntroButton = {
@@ -233,7 +245,6 @@ export default class NotificationDetails extends Component {
     }
   }
 
-
   onEmailPress = (detailsData) => {
 
     const { userData } = this.props
@@ -255,8 +266,8 @@ export default class NotificationDetails extends Component {
 
   onMessagePress = (detailsData) => {
     const { navigation } = this.props
-    const data = this.state.detailsData || detailsData
-    navigation.navigate('NotifSelectAndEditMsg', {detailsData, userTo: this.state.detailsData})
+    const data = this.state.introData || detailsData
+    navigation.navigate('NotifSelectAndEditMsg', {detailsData, userTo: this.state.introData})
   }
 
   onIntroducerMessagePress = (detailsData) => {
@@ -279,7 +290,7 @@ export default class NotificationDetails extends Component {
 
   goToDetail = () =>{
     const {navigation, actionLog} = this.props
-    const detailsData = navigation.state && navigation.state.params && navigation.state.params.detailsData
+    const detailsData = this.state.introData
     const { fields, modalShowInfo, isUser, modalShowUserInfo, modalData } = this.state
 
     this.setState(
@@ -307,7 +318,7 @@ export default class NotificationDetails extends Component {
 
   onModalContact = (btnKey, pictrueId) => {
     const {navigation} = this.props
-    const detailsData = navigation.state && navigation.state.params && navigation.state.params.detailsData
+    const detailsData = this.state.introData
     switch (btnKey) {
       case 'close':
         this.setState({modalShowInfo: false})
@@ -354,7 +365,7 @@ export default class NotificationDetails extends Component {
 
   render() {
     const { navigation, userData } = this.props
-    const detailsData = navigation.state && navigation.state.params && navigation.state.params.detailsData
+    const detailsData = this.state.introData
     const { fields, modalShowInfo, isUser, modalShowUserInfo, modalData } = this.state
     const { message } = fields
 
