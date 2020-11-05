@@ -300,11 +300,6 @@ export default class NotificationDetails extends Component {
       }
     )
 
-    actionLog({
-      "level":"debug",
-      "message":"{module : NOTIFICATIONS_CONNECT, method: WAYS_TO_CONNECT_BUTTON, "+JSON.stringify(detailsData)+" }"
-    })
-
   }
 
   onModalSelectPhotoBtnPress = (btnKey) => {

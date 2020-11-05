@@ -197,12 +197,7 @@ export default class SelectAndEditMsg extends Component {
       this.setState({hasCustomMessages: false})
 
     }
-    if (propsCheckerMakeIntroduction) {
-      actionLog({
-        "level":"debug",
-        "message":"{module : MAKE_INTRODUCTION, method: INTRODUCTION_API_RESPONSE, message: "+JSON.stringify(nextProps.makeIntroduction)+"}"
-      })
-    }
+
     if (propsCheckerMakeIntroduction == 'error') {
 
       const error = nextProps.makeIntroduction.error
@@ -222,10 +217,7 @@ export default class SelectAndEditMsg extends Component {
     }
 
     else if (propsCheckerMakeIntroduction && propsCheckerMakeIntroduction != 'empty' && this.state.goToIntro === 0) {
-      actionLog({
-        "level":"debug",
-        "message":"{module : MAKE_INTRODUCTION, method: UI_USER_ARRAY, message: successfully made introduction}"
-      })
+
       const notRegisteredUsersArray = this.state.notRegisteredUsersArray
       const introductionId = this.state.introductionId
 
@@ -284,11 +276,6 @@ export default class SelectAndEditMsg extends Component {
       }
 
       this.setState({ isLoading: true}, () => {
-
-        // Log that introduction is being made
-
-        actionLog({"level":"debug","message":"{module : MAKE_INTRODUCTION, method: UI_MAKE_INTRODUCTION_DATA, user1Phone: "+fPerson.phone+", user2Phone: "+sPerson.phone+", user1Email: "+fPerson.email+",  user2Email: "+sPerson.email+"}"})
-
         // Make introduction
 
         actionMakeIntroduction(introductionId, {
