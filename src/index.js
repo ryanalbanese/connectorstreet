@@ -19,47 +19,12 @@ TextInput.defaultProps.allowFontScaling = false;
 
 export let navigatorRef;
 
-const log = (e) => {
-  fetch('https://api.cstreet.app/v1/log', {
-    method: 'POST',
-    body: JSON.stringify({"level":"debug","message":"{module : GLOBAL_ERROR, method: GLOBAL_ERROR_MESSAGING, error: "+e+"}"}),
-    headers: {
-      'Content-Type': 'application/json',
-    }
-  })
-}
-
-const handleError = (e, isFatal) => {
-  if (isFatal) {
-    log(e)
-    Alert.alert(
-        'Unexpected error occurred',
-        `Error: ${(isFatal) ? 'Fatal:' : ''} ${e.name} ${e.message}`)
-  }
-}
-
-setJSExceptionHandler((error, isFatal) => {
-  handleError(error, isFatal);
-}, true);
-
-setNativeExceptionHandler((errorString) => {
-  log(errorString)
-});
-
-setNativeExceptionHandler(
-  exceptionhandler,
-  forceAppQuit,
-  executeDefaultHandler
-);
-
 export default class ConnectorStreet extends Component {
   constructor(props) {
     super(props);
     this.state = {
     }
   }
-
-
 
   render() {
     return (

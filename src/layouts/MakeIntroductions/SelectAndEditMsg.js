@@ -197,12 +197,6 @@ export default class SelectAndEditMsg extends Component {
       this.setState({hasCustomMessages: false})
 
     }
-    if (propsCheckerMakeIntroduction) {
-      actionLog({
-        "level":"debug",
-        "message":"{module : MAKE_INTRODUCTION, method: INTRODUCTION_API_RESPONSE, message: "+JSON.stringify(nextProps.makeIntroduction)+"}"
-      })
-    }
     if (propsCheckerMakeIntroduction == 'error') {
 
       const error = nextProps.makeIntroduction.error

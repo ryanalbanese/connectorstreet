@@ -339,12 +339,6 @@ export default class AddCustomContact extends Component {
 
     const {fields} = this.state
 
-
-    actionLog({
-      "level":"debug",
-      "message":"{module : CONTACT_LIST, method: UI_SELECT_CONTACT, "+JSON.stringify(userData.userModel)+", "+JSON.stringify(fields)+"}"
-    })
-
     personKey === 'fPerson'
     ? this.setState({showCountryBanner: false},
     () => setTimeout(() => {
